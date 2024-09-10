@@ -10,7 +10,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #1c1c1c;
     color: white;
@@ -51,11 +51,15 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.menu__header__navbar__options:hover {
+    color: red;
+}
+
 .apresentation {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 3% 15%;
+    margin: 5% 15%;
 }
 
 .apresentation__content {
@@ -106,3 +110,11 @@ body {
     background-color: #272727;
 }
 
+.footer{
+    text-align: center;
+    background-color: #363636;
+    padding: 2vh;
+    font-family: 'Montserrat', system-ui;
+    font-size: 15px;
+    font-weight: 400;
+}
